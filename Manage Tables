@@ -1,3 +1,13 @@
 unlock table table_name;
 
 msck repair table table_name;
+
+set mapred.job.queue.name=pool_name;
+
+set hive.exec.max.dynamic.partitions
+
+SET EXEC_TIME_LIMIT_S=86400;
+SET MEM_LIMIT=999g
+
+SET hive.exec.dynamic.partition=true;
+SET hive.exec.dynamic.partition.mode=nonstrict;
