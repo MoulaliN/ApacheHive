@@ -1,0 +1,3 @@
+unlock table table_name;
+
+msck repair table table_name;
